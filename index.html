@@ -5,9 +5,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grow</title>
+    
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    $(() => {
+      var searchText = "ial version of Syncfusion Esse";
+      var targetDiv = $('div:contains("' + searchText + '")');
+      targetDiv.css('display', 'none')
+    })
+  </script>
   </body>
 </html>
