@@ -171,3 +171,46 @@ button {
 #register {
   height: 250px;
 }
+
+@media screen and (max-width:600px) {
+  .landingPhoto {
+    width: 100%;
+  }
+
+  .greeting {
+    top: 130px;
+    left: 130px;
+  }
+
+  .welcome {
+    top: 170px;
+    left: 100px;
+  }
+
+  .border-bottom {
+    top: 270px;
+  }
+
+  .login {
+    height: 300px;
+    top: 130px;
+    right: 130px;
+    border: none;
+  }
+
+  .loginHeader {
+    color: lightgray;
+    width: 350px;
+    right: 9%;
+    text-align: center;
+  }
+
+  .toggleLogin {
+    right: 38%;
+  }
+
+  .form {
+    width: 100%;
+  }
+  
+}

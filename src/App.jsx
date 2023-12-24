@@ -36,6 +36,7 @@ const App = () => {
   $(() => {
     $('div:contains("' + "Syncfusion is trusted by" + '")').css('display', 'none')
   })
+  
   return (
     <>
    
@@ -115,6 +116,7 @@ const App = () => {
       </BrowserRouter>
         </div>
         :
+       
         <LandingPage />
       }
     </>
