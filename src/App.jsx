@@ -13,7 +13,7 @@ import { useStateContext } from './contexts/ContextProvider';
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
 
-  const { loggedIn, loading } = useSelector((state) => state.user);
+  const { loggedIn } = useSelector((state) => state.user);
   const dispatch = useDispatch();
 
   useEffect(() => {

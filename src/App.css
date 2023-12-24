@@ -214,3 +214,15 @@ button {
   }
   
 }
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  font-weight: 700;
+  background-color: #497cf3;
+  color: white;
+}
