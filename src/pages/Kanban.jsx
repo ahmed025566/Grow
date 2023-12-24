@@ -6,7 +6,7 @@ import '../App.css'
 
 const Kanban = () => {
   return (
-    <div className='m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl'>
+    <div className='m-2 md:m-10 mt-24 p-2 md:p-10 bg-main-bg rounded-3xl'>
       <Header title='Kanban' category='App' />
       <KanbanComponent id="kanban" dataSource={kanbanData} swimlaneSettings={{ keyField: "Assignee", allowDragAndDrop: true }} cardSettings={{contentField: 'Summary', headerField: 'Id'}} keyField='Status'  >
         <ColumnsDirective>

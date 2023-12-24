@@ -7,7 +7,7 @@ import '../App.css'
 const Employees = () => {
  
   return (
-    <div className='m-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl'>
+    <div className='m-2 md:m-10 p-2 md:p-10 bg-main-bg rounded-3xl'>
       <Header title="Employees" category="Page" />
       <GridComponent dataSource={employeesData} allowPaging={true} allowSorting toolbar={['Search']} width='auto' >
         <ColumnsDirective>
