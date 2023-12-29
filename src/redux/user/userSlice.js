@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const login = createAsyncThunk('users/login', async (payload) => {
   try {
-    const response = await axios.post('https://grow-api-67iq.onrender.com/sessions', payload, { withCredentials: true });
+    const response = await axios.post('https://grow-api-bagl.onrender.com/sessions', payload, { withCredentials: true });
     return response.data;
   } catch (error) {
     return error.message;
@@ -12,7 +12,7 @@ export const login = createAsyncThunk('users/login', async (payload) => {
 
 export const checkLogin = createAsyncThunk('user/checkLogin', async () => {
   try {
-    const response = await axios.get('https://grow-api-67iq.onrender.com/sessions/logged_in', { withCredentials: true });
+    const response = await axios.get('https://grow-api-bagl.onrender.com/sessions/logged_in', { withCredentials: true });
     return response.data;
   } catch (error) {
     return error.message;
@@ -21,7 +21,7 @@ export const checkLogin = createAsyncThunk('user/checkLogin', async () => {
 
 export const register = createAsyncThunk('user/register', async (payload) => {
   try {
-    const response = await axios.post('https://grow-api-67iq.onrender.com/registration', (payload), { withCredentials: true });
+    const response = await axios.post('https://grow-api-bagl.onrender.com/registration', (payload), { withCredentials: true });
     return response.data;
   } catch (error) {
     return error.message;
@@ -30,7 +30,7 @@ export const register = createAsyncThunk('user/register', async (payload) => {
 
 export const logout = createAsyncThunk('user/logout', async () => {
   try {
-    const response = axios.delete('https://grow-api-67iq.onrender.com/sessions/log_out', { withCredentials: true });
+    const response = axios.delete('https://grow-api-bagl.onrender.com/sessions/log_out', { withCredentials: true });
     return response.data;
   } catch (error) {
     return error.message;
