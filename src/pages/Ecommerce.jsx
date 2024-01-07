@@ -4,6 +4,7 @@ import { GoDotFill } from "react-icons/go";
 import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
 import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
+import file from '../../assets/03frusg.pdf'
 
 const Ecommerce = () => {
 
@@ -19,9 +20,14 @@ const Ecommerce = () => {
             </div>
           </div>
           <div className='mt-6'>
-            <Button 
-              color="white" bgColor={currentColor} text="Download" borderRadius="10px" size="md"
-            />
+            <form method="get" action={file}>
+              <button type="submit"
+                style={{ backgroundColor: currentColor, borderRadius: '10px', color: 'white' }}
+                className={` text-md p-3 w- hover:drop-shadow-xl hover:bg-`} 
+              >
+                Download
+              </button>
+            </form>
           </div>
         </div>
         <div className='flex m-3 flex-wrap justify-center gap-1 items-center'>

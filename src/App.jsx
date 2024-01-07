@@ -31,7 +31,7 @@ const App = () => {
       $(() => {
         $('div:contains("' + "Syncfusion is trusted by" + '")').css('display', 'none')
       })
-    }, 2000);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, []); 
