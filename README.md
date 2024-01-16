@@ -30,7 +30,8 @@
 
 **Grow** 
 
-Grow is a tool that could help small bussiness owners to organize their leads and to have a qucik summaru about thire financial suitiaion and it also have a communicate with other grow users via chat.
+Empowering Small Businesses with Data Management and Visualization
+Grow is a comprehensive web platform designed for small businesses, offering powerful tools for data management and insights. It enables businesses to organize and track essential information such as employee details, customer profiles, orders, and inventory. With features like centralized data management, employee and customer relationship management, and data visualization using customizable dashboards and analytics tools, Grow empowers businesses to make informed decisions based on real-time data. The platform is scalable, accommodating evolving needs, and accessible from anywhere via the cloud. Grow is positioned as a strategic ally for small businesses seeking efficiency, insights, and growth in a competitive market.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -58,7 +59,7 @@ Grow is a tool that could help small bussiness owners to organize their leads an
 
 > Here is a link to the demo project.
 
-- [Live Demo Link](//will be added later)
+- [Live Demo Link](https://grow-lqwz.onrender.com/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
